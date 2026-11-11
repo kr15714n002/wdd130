@@ -7,9 +7,6 @@
 }
 
 :root {
-    --background-color: white;
-    --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --primary-color: black; 
     --font-weigth-text: 400;
     --font-weigth-tittles: 400;
 }
@@ -72,10 +69,10 @@ footer {
 }
 
 .hero article img {
-    float: left;
+    float: right;
     width: 200px;
     height: 150px;
-    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .history h2 {
