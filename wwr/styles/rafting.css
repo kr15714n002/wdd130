@@ -10,21 +10,65 @@
     --font-weigth-text: 400;
 }
 
-/*header section*/
-header, main, footer {
+body {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto; /* header, hero, history, awy, footer */
+    width: 840px;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+main {
+    width: 840px;
+    margin: 0 auto;
+    font-family: var(--primary-color);
+    display: contents;
+}
+
+footer {
     width: 840px;
     margin: 0 auto;
     font-family: var(--primary-color);
 }
 
-
-/*body and main section*/
-
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
+header {
+    background-color: aliceblue;
+    grid-template-columns: auto 1fr;
+    display: grid;
+    border: 10px;
+    border: 1px solid lightgray;
+    width: 840px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: var(--primary-color);
 }
 
+header img {
+    grid-column: 1/2;
+    width: 150px;
+}
+
+header nav {
+    grid-column: 2/3;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 0;
+    justify-content: right;
+    padding: 2rem;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    justify-content: space-around;
+    border: 1px solid #555;
+}
+
+/*body and main section*/
 h1 {
     position: absolute;
     top: 2%;
@@ -37,6 +81,16 @@ h1 {
 
 footer {
     text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    padding: 40px;
+}
+
+footer p {
+    justify-content: center;
+    padding: 1rem;
 }
 
 /*class selectors*/
@@ -47,6 +101,8 @@ footer {
 
 .hero {
     position: relative;
+    width: 840px;
+    margin-top: 10px;
 }
 
 .hero img {
@@ -74,6 +130,37 @@ footer {
     padding-left: 10px;
 }
 
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.history p.hleft {
+    text-align: left;
+    font-size: larger;
+    font-weight: var(--font-weigth-text);
+    font-size: larger;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.history img {
+    width: 200px;
+    margin: 0 auto;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.history p.hright {
+    text-align: left;
+    font-size: larger;
+    font-weight: var(--font-weigth-text);
+    font-size: larger;
+    grid-column: 3;
+    grid-row: 2;
+}
+
 .history h2 {
     text-align: center;
     font-family: monospace;
@@ -81,20 +168,26 @@ footer {
     background-color: blue;
     color: white;
     padding: 10px;
-}
-
-.history p {
-    text-align: left;
-    font-size: larger;
-    font-weight: var(--font-weigth-text);
-    font-size: larger;
+    grid-column: 1 / -1;
 }
 
 .awy {
     text-align: center;
     font-family: monospace;
     font-size: xx-large;
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: blue;
     padding: 10px;
+    display: grid;
 }
+
+.awy .figures {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.awy img {
+    padding: 1px;
+}
+
+

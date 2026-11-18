@@ -54,6 +54,7 @@ nav a {
     display: block;
     padding: 20px;
     text-decoration: none;
+    align-items: center;
 }
 
 /* Class selectors*/
@@ -123,6 +124,7 @@ ul.box {
     padding: 5px;
     border-bottom: #000;
     background-color: gainsboro;
+    border-bottom: 1px solid #777;
 }
 
 .profile p {
