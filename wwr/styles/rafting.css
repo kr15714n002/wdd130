@@ -28,7 +28,6 @@ header {
     background-color: aliceblue;
     grid-template-columns: auto 1fr;
     display: grid;
-    border: 10px;
     border: 1px solid lightgray;
     margin: 0 auto;
     margin-top: 10px;
