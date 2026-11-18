@@ -172,10 +172,13 @@ footer p {
 
 .awy .figures {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .awy img {
+    width: 100%;
+    height: auto;
+    display: block;
     padding: 1px;
 }
 
