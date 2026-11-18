@@ -19,16 +19,9 @@ body {
 }
 
 main {
-    width: 840px;
     margin: 0 auto;
     font-family: var(--primary-color);
     display: contents;
-}
-
-footer {
-    width: 840px;
-    margin: 0 auto;
-    font-family: var(--primary-color);
 }
 
 header {
@@ -37,7 +30,6 @@ header {
     display: grid;
     border: 10px;
     border: 1px solid lightgray;
-    width: 840px;
     margin: 0 auto;
     margin-top: 10px;
     font-family: var(--primary-color);
@@ -101,7 +93,6 @@ footer p {
 
 .hero {
     position: relative;
-    width: 840px;
     margin-top: 10px;
 }
 
@@ -138,7 +129,6 @@ footer p {
 
 .history p.hleft {
     text-align: left;
-    font-size: larger;
     font-weight: var(--font-weigth-text);
     font-size: larger;
     grid-column: 1;
@@ -154,10 +144,9 @@ footer p {
 
 .history p.hright {
     text-align: left;
-    font-size: larger;
     font-weight: var(--font-weigth-text);
-    font-size: larger;
     grid-column: 3;
+    font-size: larger;
     grid-row: 2;
 }
 
@@ -183,7 +172,7 @@ footer p {
 
 .awy .figures {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .awy img {
