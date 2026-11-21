@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    color: blue;
+}
+
+main {
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    background-color: lightgray;
+    width: 90%;
+    max-width: 740px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 1rem;
+}
+
+.contact {
+    color: blue;
+    padding: 5px;
+    display: grid;
+    width: 100%
+}
+
+.contact legend {
+    padding: 5px;
+    text-align: center;
+}
+
+.contact label {
+    padding: 5px;
+}
+
+.questions {
+    display: grid;
+    color: blue;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+}
+
+.questions legend {
+    text-align: center;
+    padding: 5px;
+}
+
+.questions label { 
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.questions .pets {
+    margin-top: 15px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 100%;
+    resize: vertical;
+}
+
+button {
+    margin: 0 auto;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+

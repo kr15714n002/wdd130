@@ -7,7 +7,7 @@
     <meta name="description" content="Content of the page">
     <meta name="author" content="Cristian Cornejo Farias">
     <title>Form</title>
-    <link rel="stylesheet"  href="examplestyle.css">
+    <link rel="stylesheet"  href="../week05/styles/poll-form.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 
     <main>
         <form>
-            <fieldset>
+            <fieldset class="contact">
                 <legend>Contact information</legend>
                 <label for="fullname">User's Full name</label>
                 <input type="text" id="fullname" name="fullname" required>
@@ -26,17 +26,21 @@
                 <input type="email" id="useremail" name="useremail" required>
 
             </fieldset>
-            <fieldset>
+            <fieldset class="questions">
                 <legend>Questions</legend>
                 <label for="browser">Select you favourite browser</label>
                 <select name="browser" id="browser">
                     <option value="1">Chrome</option>
                     <option value="2">Firefox</option>
                     <option value="3">Edge</option>
+                    <option value="4">Opera</option>
+                    <option value="5">Safari</option>
                 </select>
 
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet" required>
+                <div class="pets">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet" required>
+                </div>
 
                 <label for="places">List the places you have lived:</label>
                 <textarea name="places" id="places" rows="4" placeholder="Santiago - Chile, Lima - Peru, Buenos Aires - Argentina"></textarea>
