@@ -1,0 +1,28 @@
+table {
+    width: 840px;
+    height: auto;
+    margin: 0 auto;
+}
+
+table th {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    font-size: x-large;
+}
+
+table td {
+    text-align: center;
+    border: 1px solid lightgray;
+    font-size: large;
+}
+
+tfoot th {
+    background-color: blue;
+}
+
+tfoot tr {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
