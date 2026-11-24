@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    padding: 1rem;
+}
+
+form {
+    display: grid;
+    width: 90%;
+    max-width: 840px;
+    margin: 0 auto;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(99, 244, 205);
+    font-size: larger;
+}
+
+legend {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+fieldset {
+    display: grid;
+    width: 100%;
+    max-width: 700px;
+    background-color: rgb(231, 227, 182);
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.q1 {
+    display: grid;
+    padding: 1rem;
+    max-width: 600px;
+    justify-content: left;
+    color: blue;
+    font-weight: bold;
+}
+
+.q1 input {
+    max-width: 600px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.q2 {
+    display: grid;
+    padding: 1rem;
+    max-width: 600px;
+    justify-content: left;
+    color: blue;
+    font-weight: bold;
+}
+
+.q2 textarea {
+    max-width: 600px;
+    height: 25px;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+.q3 {
+    display: grid;
+    padding: 1rem;
+    max-width: 600px;
+    justify-content: left;
+    color: blue;
+    font-weight: bold;
+}
+
+.q3 select {
+    max-width: 600px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.q4 {
+    display: grid;
+    padding: 1rem;
+    max-width: 600px;
+    justify-content: left;
+    color: blue;
+    font-weight: bold;
+}
+
+.q4 input {
+    max-width: 600px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.q4 code {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 10px;
+    display: block;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    padding: 10px;
+    width: 200px;
+    margin: 0 auto;
+    font-size: larger;
+}

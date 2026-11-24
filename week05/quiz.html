@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Content of the page">
+    <meta name="author" content="Cristian Cornejo Farias">
+    <title>Quiz</title>
+    <link rel="stylesheet"  href="../week05/styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Basic quiz about HTML and CSS</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="q1">
+                    <label for="q1">1. What tag is related to the hyperlinks?</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+
+                <div class="q2">
+                    <label for="q2">2. Is CSS, what is the definition about property and value?</label>
+                    <textarea name="q2" id="q2" required></textarea>
+                </div>
+
+                <div class="q3">
+                <label for="q3">3. In CSS, what is the property related to the font type?</label>
+                    <select name="q3" id="q3" required>
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="1">font-select</option>
+                        <option value="2">font-family</option>
+                        <option value="3">font-option</option>
+                    </select>
+                </div>
+
+                 <div class="q4">
+                    <label for="q4">4. In CSS, what is the default option in this case?</label>
+                    <code> margin { 
+                        ... auto } 
+                    </code>
+                    <input type="number" name="q4" id="q4" required>
+                </div>
+
+                <button type="submit">Submit quiz!</button>
+            </fieldset>
+            
+        </form>
+
+
+    </main>
+    <aside>
+    </aside>
+
+    <footer>
+    </footer>
+</body>
+
+</html>
