@@ -24,7 +24,6 @@ main {
     margin: 0 auto;
     font-family: var(--primary-color);
     display: contents;
-    display: grid;
 }
 
 header {
@@ -220,11 +219,7 @@ form input {
     background-color: rgb(179, 239, 239);
     padding: 1rem;
     margin-top: 10px;
-    height: 0 auto;
-}
-
-.form_gps iframe {
-    width: 100%;
+    height: auto;
 }
 
 .form_gps label {
@@ -266,11 +261,14 @@ button {
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     text-align: center;
+    padding: 1rem;
 }
 
-.serve h1 {
+.serve h2 {
     grid-column: 1 / 4;
     color: blue;
+    font-weight: bold;
+    padding: 1rem;
 }
 
 .serve img {
