@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us page of Cristian Cornejo from wdd130 Course block6 week03">
+    <meta name="author" content="Cristian Cornejo Farias">
+    <title>The rapids | Contact us</title>
+    <link rel="stylesheet"  href="/wdd130/wwr/styles/rafting.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <img src="../wwr/images/z-therapidssplash.jpg" alt="wwr logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main class="card">
+        <h1>The Rapids! Company</h1>
+        <p>
+            123 Main River Street
+            Kolob, California
+        </p>
+        <p>
+            info@therapids.com
+        </p>
+        <div class="form_gps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1663.2637059527103!2d-70.6112983613952!3d-33.5136706570364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d06f40ebd907%3A0x7eee5cbdc9a06ac2!2sMirador%20Azul%20185%2C%208260011%20La%20Florida%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1sen!2scl!4v1795565127970!5m2!1sen!2scl" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <form>
+                <fieldset>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Name here" required>
+
+                    <label for="Email">Email</label>
+                    <input type="email" id="Email" name="Email" placeholder="Email here" required>
+                    
+                    <div class="purpose">
+                        <p class="purpose-title">Message Purpose</p>
+                        <div class="purpose-options">
+                            <div>
+                                <input type="radio" id="general" name="Purpose" value="General Inquiry">
+                                <label for="general">General Inquiry</label>
+                            </div>
+                        </div>
+                            <input type="radio" id="reservation" name="Purpose" value="Reservation Question">
+                            <label for="reservation">Reservation Question</label>
+                        <div>
+                            <input type="radio" id="suggestion" name="Purpose" value="Website Suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                    
+                    <label for="Message">Message</label>
+                    <textarea name="Message" id="Message" placeholder="Text here"></textarea>
+
+                    <div class="subscribe">
+                         <label for="pet">Please Subscribe me to the monthly newsletter</label>
+                         <input type="checkbox" id="pet" name="pet" required>
+                    </div>
+                    
+                    <button type="submit">Get in Touch!</button>
+                </fieldset>        
+            </form>
+        </div>
+        <div class="serve">
+            <h1>We Are Here to Serve You</h1>
+            <figure>
+                <img src="../wwr/images/profile1.png" alt="Carlos G"><figcaption>Sales Employee</figcaption>
+            </figure>
+            <figure>
+                <img src="../wwr/images/profile2.png" alt="Emilia F"><figcaption>Travel Coodinator</figcaption>
+            </figure>
+            <figure>
+                <img src="../wwr/images/profile3.png" alt="Steven P"><figcaption>System Engineer</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 &#10070; The Rapids &#10070; Cristian Cornejo &#10070; Santiago, Chile</p>
+        <nav class="socialmedia">
+            <a href="https://www.instagram.com/">
+                <img src="../wwr/images/instagram.png" alt="Instagram">
+            </a>
+             <a href="https://x.com/?lang=en">
+                <img src="../wwr/images/twitter.png" alt="X">
+            </a>
+             <a href="https://www.youtube.com/">
+                <img src="../wwr/images/youtube.png" alt="Youtube">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

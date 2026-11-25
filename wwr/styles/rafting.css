@@ -10,9 +10,11 @@
     --font-weigth-text: 400;
 }
 
+/*About Us page*/
+
 body {
     display: grid;
-    grid-template-rows: auto auto auto auto auto; /* header, hero, history, awy, footer */
+    grid-template-rows: auto auto auto auto auto;
     width: 840px;
     margin: 0 auto;
     gap: 16px;
@@ -22,6 +24,7 @@ main {
     margin: 0 auto;
     font-family: var(--primary-color);
     display: contents;
+    display: grid;
 }
 
 header {
@@ -57,17 +60,6 @@ header nav a {
     border-radius: 8px;
     justify-content: space-around;
     border: 1px solid #555;
-}
-
-/*body and main section*/
-h1 {
-    position: absolute;
-    top: 2%;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: greenyellow;
 }
 
 footer {
@@ -118,6 +110,16 @@ footer p {
     width: 200px;
     height: 150px;
     padding-left: 10px;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 2%;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: greenyellow;
 }
 
 .history {
@@ -180,5 +182,102 @@ footer p {
     display: block;
     padding: 1px;
 }
+
+/*Contact Us page*/
+
+.card {
+    margin: 0 auto;
+    width: 100%;
+    display: grid;
+    height: auto;
+}
+
+form {
+    margin: 0 auto;
+    display: grid;
+    width: 100%;
+    height: auto;
+}
+
+fieldset {
+    display: grid;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    height: auto;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input {
+    padding: 5px;
+}
+
+.form_gps {
+    display: flex;
+    gap: 1rem;
+    background-color: rgb(179, 239, 239);
+    padding: 1rem;
+    margin-top: 10px;
+    height: 0 auto;
+}
+
+.form_gps iframe {
+    width: 100%;
+}
+
+.form_gps label {
+    text-align: center;
+    padding: 5px;
+}
+
+.purpose,
+.purpose-title {
+    padding: 15px;
+    background-color: white;
+    margin: 15px;
+}
+
+.card h1 {
+    background-color: white;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card p {
+    background-color: white;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.subscribe {
+    padding: 10px;
+}
+
+button {
+    padding: 5px;
+}
+
+.serve {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    text-align: center;
+}
+
+.serve h1 {
+    grid-column: 1 / 4;
+    color: blue;
+}
+
+.serve img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 
